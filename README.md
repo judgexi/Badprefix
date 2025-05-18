@@ -2,6 +2,7 @@
 BADPREFIX: Backdoor Attacks in Language Models via Prefix Tuning
 
 (encoder-decoder)：
+
 python prefix_class_encoder2decoder.py \
     --train_data sst2/train.csv \
     --test_data sst2/valid.csv \
@@ -17,6 +18,7 @@ python prefix_class_encoder2decoder.py \
 
 
 (encoder only)：
+
 python prefix_class_encoderonly.py \
     --train_data sst2/train.csv \
     --test_data sst2/valid.csv \
